@@ -57,26 +57,23 @@ body{
 .alpha h1{
     color: #FDF0D5;
 }
-.inbox{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+.name{
+    text-align: center;
+    width:50%;
+    height: 5%;
+    font-size: 1em;
+    color:#780000
 }
-.box{
-    width:7.69%;
-    height: 15%;
-    padding-bottom: 2vmin;
-    margin: 1vmax;
-    background-color: #FDF0D5;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.submit{
+    width: 5%;
+    height: 4%;
+    margin:0.3em;
     color: #780000;
 }
+    .box{
+        height:50%;
+        width:50%;
+    }
 @media(min-width:368px) and (max-width: 811px){
 body{
     font-size: 8px;
@@ -106,4 +103,6 @@ body{
     .img img{
         max-width: 180px;
     }
+
 }
+
