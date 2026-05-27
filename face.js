@@ -33,7 +33,7 @@ if(input && sub){
                     value[0].toUpperCase()=="V")
                      && gender=="F")
                      {
-                 photo.setAttribute("src","meme/g1.png?"+ Date.now());
+                 photo.setAttribute("src","meme/g1.png");
              }
             else if(
                 (value[0].toUpperCase()=="B" ||
@@ -44,7 +44,7 @@ if(input && sub){
                     value[0].toUpperCase()=="W")
                      && gender=="F")
                      {
-                 photo.setAttribute("src","meme/g2.png?"+ Date.now());
+                 photo.setAttribute("src","meme/g2.png");
              }     
             else if(
                 (value[0].toUpperCase()=="C" ||
@@ -55,7 +55,7 @@ if(input && sub){
                     value[0].toUpperCase()=="X")
                      && gender=="F")
                      {
-                 photo.setAttribute("src","meme/g3.png?"+ Date.now());
+                 photo.setAttribute("src","meme/g3.png");
              }               
             else if(
                 (value[0].toUpperCase()=="D" ||
@@ -66,7 +66,7 @@ if(input && sub){
                     value[0].toUpperCase()=="Y")
                      && gender=="F")
                      {
-                 photo.setAttribute("src","meme/g4.png?"+ Date.now());
+                 photo.setAttribute("src","meme/g4.png");
              }   
              else if(
                 (value[0].toUpperCase()=="A" ||
@@ -77,7 +77,7 @@ if(input && sub){
                     value[0].toUpperCase()=="V")
                      && gender=="M")
                      {
-                 photo.setAttribute("src","meme/b1.png?"+ Date.now());
+                 photo.setAttribute("src","meme/b1.png");
              }
             else if(
                 (value[0].toUpperCase()=="B" ||
@@ -89,7 +89,7 @@ if(input && sub){
                     value[0].toUpperCase()=="M")
                                          && gender=="M")
                      {
-                 photo.setAttribute("src","meme/b2.png?"+ Date.now());
+                 photo.setAttribute("src","meme/b2.png");
              }     
             else if(
                 (value[0].toUpperCase()=="C" ||
@@ -100,7 +100,7 @@ if(input && sub){
                     value[0].toUpperCase()=="X")
                      && gender=="M")
                      {
-                 photo.setAttribute("src","meme/b3.png?"+ Date.now());
+                 photo.setAttribute("src","meme/b3.png");
              }               
             else if(
                 (value[0].toUpperCase()=="D" ||
@@ -111,10 +111,10 @@ if(input && sub){
                     value[0].toUpperCase()=="Y")
                      && gender=="M")
                      {
-                 photo.setAttribute("src","meme/b4.png?"+ Date.now());
+                 photo.setAttribute("src","meme/b4.png");
              }    
              else{
-                 photo.setAttribute("src","meme/g5.png?"+ Date.now());
+                 photo.setAttribute("src","meme/g5.png");
              } 
              
                  }
