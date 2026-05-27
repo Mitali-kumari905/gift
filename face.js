@@ -13,8 +13,6 @@ boy.addEventListener("click",()=>{
 
 gender = sessionStorage.getItem("gender");
 
-console.log(gender);
-
 let input=document.querySelector(".name");
 let sub=document.querySelector(".submit");
 let photo=document.querySelector(".box");
