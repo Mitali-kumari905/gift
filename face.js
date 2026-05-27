@@ -23,8 +23,7 @@ if(input && sub){
         value=input.value;
         if(value[0].toUpperCase()>="A" && value[0].toUpperCase()<="Z"){
                         text.innerText=`This is you ${value} 🤗`;
-                        text.style.color="red";
-                        
+                        text.style.color="red"; 
             if(
                 (value[0].toUpperCase()=="A" ||
                     value[0].toUpperCase()=="E"||
@@ -69,8 +68,6 @@ if(input && sub){
                      {
                  photo.setAttribute("src","meme/g4.png");
              }   
-             else if(value[0].toUpperCase()=="M" && gender=="F"){
-                 photo.setAttribute("src","meme/g5.png");             }
              else if(
                 (value[0].toUpperCase()=="A" ||
                     value[0].toUpperCase()=="E"||
@@ -115,10 +112,13 @@ if(input && sub){
                      && gender=="M")
                      {
                  photo.setAttribute("src","meme/b4.png");
-             }               
+             }    
+             else{
+                 photo.setAttribute("src","meme/g5.png");
+             } 
              
                  }
-        else{
+        else if(value[0].toUpperCase()=="M" && gender=="F"){
             alert("enter name correctly!");
             value="";
         }
